@@ -1,0 +1,28 @@
+.button-home {
+    border: none;
+    border-radius: 15px;
+    background: #F5F6F7;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.buttons_container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 19px;
+}
+
+.buttons_container:first-child {
+    position: relative;
+}
+
+.dot {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    right: -5px;
+    top: 0;
+    border-radius: 50%;
+    background-color: #FF2F2F;
+}

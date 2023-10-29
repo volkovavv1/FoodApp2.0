@@ -1,0 +1,43 @@
+.title {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0 auto 27px;
+    max-width: 676px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    row-gap: 55px;
+    column-gap: 29px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 566px;
+    scroll-snap-type: y mandatory;
+    padding-bottom: 25px;
+}
+
+.flex > div:last-of-type{
+    margin-left: 37px;
+    margin-right: auto;
+}
+
+.small_flex {
+    display: flex;
+    row-gap: 55px;
+    column-gap: 29px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 283px;
+}
+
+.small_flex > div:first-child{
+    margin-left: 36px;
+}
+
+.container {
+    color: aqua;
+}

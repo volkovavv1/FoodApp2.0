@@ -1,0 +1,98 @@
+import burger from '../assets/img/categories/burger.png'
+import fire from '../assets/img/categories/icons/fire.svg'
+import like from '../assets/img/categories/icons/like.svg'
+import star from '../assets/img/categories/icons/star.svg'
+
+export const categoriesList = [
+    {
+        id: 1,
+        category: 'burger',
+        title: 'Best Burger',
+        desc: 'Rels, Zoodies, Garn, Sesasam Dessigns, Redeshchein, Avocade, Sausage, Foor',
+        img: burger,
+        icon: fire,
+        price: 79,
+    },
+    {
+        id: 2,
+        category: 'burger',
+        title: 'Best Burger',
+        desc: 'Rels, Zoodies, Garn, Sesasam Dessigns, Redeshchein, Avocade, Sausage, Foor',
+        img: burger,
+        icon: fire,
+        price: 79,
+    },   
+    {
+        id: 3,
+        category: 'burger',
+        title: 'Best Burger',
+        desc: 'Rels, Zoodies, Garn, Sesasam Dessigns, Redeshchein, Avocade, Sausage, Foor',
+        img: burger,
+        icon: null,
+        price: 79,
+    },   
+    {
+        id: 4,
+        category: 'burger',
+        title: 'Best Burger',
+        desc: 'Rels, Zoodies, Garn, Sesasam Dessigns, Redeshchein, Avocade, Sausage, Foor',
+        img: burger,
+        icon: null,
+        price: 79,
+    },   
+    {
+        id: 5,
+        category: 'burger',
+        title: 'Best Burger',
+        desc: 'Rels, Zoodies, Garn, Sesasam Dessigns, Redeshchein, Avocade, Sausage, Foor',
+        img: burger,
+        icon: null,
+        price: 79,
+    },   
+    {
+        id: 6,
+        category: 'burger',
+        title: 'Best Burger',
+        desc: 'Rels, Zoodies, Garn, Sesasam Dessigns, Redeshchein, Avocade, Sausage, Foor',
+        img: burger,
+        icon: fire,
+        price: 79,
+    },   
+    {
+        id: 7,
+        category: 'burger',
+        title: 'Best Burger',
+        desc: 'Rels, Zoodies, Garn, Sesasam Dessigns, Redeshchein, Avocade, Sausage, Foor',
+        img: burger,
+        icon: null,
+        price: 79,
+    },
+    {
+        id: 8,
+        category: 'salads',
+        title: 'Salad',
+        desc: 'Rels, Zoodies, Garn, Sesasam Dessigns, Redeshchein, Avocade, Sausage, Foor',
+        img: burger,
+        icon: null,
+        price: 79,
+    },
+    {
+        id: 9,
+        category: 'donuts',
+        title: 'Donut',
+        desc: 'Rels, Zoodies, Garn, Sesasam Dessigns, Redeshchein, Avocade, Sausage, Foor',
+        img: burger,
+        icon: like,
+        price: 79,
+    },
+    {
+        id: 10,
+        category: 'drinks',
+        title: 'Cocktail',
+        desc: 'Rels, Zoodies, Garn, Sesasam Dessigns, Redeshchein, Avocade, Sausage, Foor',
+        img: burger,
+        icon: star,
+        price: 79,
+    },
+
+]

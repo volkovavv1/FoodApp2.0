@@ -1,0 +1,13 @@
+body {
+    /* background-image: url('../assets/img/imag.png');
+    background-repeat: no-repeat; */
+    background: #2e333d;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'League Spartan';
+}
+
+::-webkit-scrollbar{
+    display: none;
+}

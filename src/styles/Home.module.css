@@ -1,0 +1,26 @@
+.main {
+    max-width: 1440px;
+    display: flex;
+    margin: 103px auto 0 auto;
+}
+
+.container {
+    max-width: 750px;
+}
+
+.container >  {
+    max-width: 750px;
+}
+
+.title {
+    color: #FFF; 
+    max-width: 676px;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 65px;
+    margin: 0 auto 31px;
+
+}
+
+
+

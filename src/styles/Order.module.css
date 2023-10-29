@@ -1,0 +1,148 @@
+.container {
+    position: absolute;
+    z-index: 999;
+
+    top: 71px;
+    right: 67px;
+    
+    max-width: 314px;
+    max-height: 676px;
+    height: 100%;
+    width: 100%;
+
+    border-radius: 30px 0px 0px 30px;
+    background: #403D57;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items_container {
+    max-width: 269px;
+    width: 100%;
+    margin-top: 48px;
+}
+
+.items_container > div:first-of-type{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+
+.title {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.items {
+    display: flex;
+}
+
+.item {
+    display: flex;
+    max-width: 269px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.image {
+    max-width: 47px;
+    height: 47px;
+    border-radius: 15px;
+}
+
+.image > img {
+    width: 100%;
+}
+
+.item_desc {
+    display: flex;
+    max-width: 163px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.item_title {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    padding-bottom: 3px; 
+}
+
+.item_text {
+    color: #CCC;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 10px;
+    max-width: 100px;
+}
+
+.item_sum {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100px;
+    gap: 14px;
+}
+
+.quantity {
+    border-radius: 9px;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.28);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 43px;
+    height: 18px;
+}
+
+.quantity > span {
+    padding-top: 2px;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 10px;
+}
+
+.item_price {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px; 
+}
+
+.button {
+    max-width: 252px;
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background: #5967E1;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-bottom: 34px;
+    cursor: pointer;
+}
+
+.controls {
+    background-color:  transparent;
+    height: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn {
+    width: 46px;
+    height: 46px;
+}

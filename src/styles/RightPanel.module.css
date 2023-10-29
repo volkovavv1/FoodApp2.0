@@ -1,0 +1,42 @@
+.right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 71px;
+    max-width: 259px;
+    width: 100%;
+}
+
+.discount {
+    margin-top: 109px;
+    max-width: 259px;
+    position: relative;
+}
+
+.bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 158px;
+    width: 100%;
+    border-radius: 30px;
+    background: linear-gradient(180deg, #6764E7 0%, #9544D4 68.75%);
+}
+
+.text {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 0 29px 25px;
+}
+
+.img {
+    position: absolute;
+    top: -97px;
+    right: -44px;
+}
+
+.big {
+    font-size: 28px;
+    font-weight: 700;
+    padding: 0px 0 9px 22px;
+}
